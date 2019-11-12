@@ -13,4 +13,5 @@ end
 def age_appropriate_birthday(argument)
   argument.each do |name, age|
     puts "Happy Birthday #{name}! You are now #{age} years old!"
+  end
 end
